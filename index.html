@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!-- Shopping Section -->
+    <section class="shopping-section">
+
+        <!-- Figure -->
+        <div class="shopping-section__figure"></div>
+
+        <!-- Content -->
+        <div class="shopping-section__content">
+
+            <!-- Head -->
+            <div class="content__head">
+                <div class="head__inner">
+                    <h6>Everyday items, we have something to suit every occasion.</h6>
+                    <p>At suspendisse augue lectus arcu, accumsan ut sit posuere vitae sit tincidunt semper eu proin leo gravida cursus.</p>
+                    <a class="text-link" href="javascript:;">Shop All Everyday Items</a>
+                </div>
+            </div>
+
+            <!--  Products -->
+            <div class="content__products">
+                <div class="swiper prdocuts__inner">
+                    <div class="swiper-wrapper">
+                        <div class="inner__item swiper-slide">
+                            <a class="item__image" href="javascript:;">
+                                <img src="./assets/media/product-02.jpg" />
+                            </a>
+                            <div class="item__content">
+                                <a class="content__title" href="javascript:;">365 Signature Hoodie</a>
+                                <div class="content__footer">
+                                    <div class="footer__price">€33.95</div>
+                                    <div class="footer__options">
+                                        <a href="javascript:;" class="--active">
+                                            <span style="background-color: #99C3CC;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #CC9999;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #CB99CC;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #A6CC99;"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner__item swiper-slide">
+                            <a class="item__image" href="javascript:;">
+                                <img src="./assets/media/product-01.jpg" />
+                            </a>
+                            <div class="item__content">
+                                <a class="content__title" href="javascript:;">Organic Skinny High Waist Jeans</a>
+                                <div class="content__footer">
+                                    <div class="footer__price">€33.95</div>
+                                    <div class="footer__options">
+                                        <a href="javascript:;" class="--active">
+                                            <span style="background-color: #99C3CC;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #CC9999;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #CB99CC;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #A6CC99;"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner__item swiper-slide">
+                            <a class="item__image" href="javascript:;">
+                                <img src="./assets/media/product-03.jpg" />
+                            </a>
+                            <div class="item__content">
+                                <a class="content__title" href="javascript:;">Organic Skinny High Waist Jeans</a>
+                                <div class="content__footer">
+                                    <div class="footer__price">€33.95</div>
+                                    <div class="footer__options">
+                                        <a href="javascript:;" class="--active">
+                                            <span style="background-color: #99C3CC;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #CC9999;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #CB99CC;"></span>
+                                        </a>
+                                        <a href="javascript:;">
+                                            <span style="background-color: #A6CC99;"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+        var swiper = new Swiper(".prdocuts__inner", {
+            slidesPerView: "auto",
+            grabCursor: true,
+            spaceBetween: 16,
+            breakpoints: {
+                768: {
+                    spaceBetween: 32,
+                },
+            }
+        });
+      </script>
+</body>
+</html>

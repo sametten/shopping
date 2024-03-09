@@ -1,0 +1,51 @@
+/* Basics */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "itc-avant-garde-gothic-pro";
+    font-weight: bold;
+}
+
+p, a {
+    font-family: "avenir";
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a.text-link:hover {
+    color: #000;
+}
+
+a.text-link:hover:active {
+    color: #666;
+}
+
+
+/* Heads */
+h6 {
+    font-size: 2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+/* Contet */
+p {
+    color: #666;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0 0 1.5rem 0;
+}
+
+a.text-link {
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #666;
+    transition-property: all;
+    transition-duration: 0.3s;
+    text-underline-offset: 10px;
+}
